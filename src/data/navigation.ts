@@ -1,6 +1,7 @@
 import {
     FileCode,
     FileText,
+    Briefcase,
     MessageSquare,
     Settings,
     Folder,
@@ -11,6 +12,7 @@ import {
 export const FILE_TREE = [
     { id: 'home', label: 'Home', icon: FileCode, category: 'Overview' },
     { id: 'about', label: 'About', icon: FileText, category: 'Profile' },
+    { id: 'experience', label: 'Experience', icon: Briefcase, category: 'Career' },
     { id: 'quotes', label: 'Quotes', icon: MessageSquare, category: 'Inspiration' },
     { id: 'skills', label: 'Skills', icon: Settings, category: 'Stack' },
     { id: 'projects', label: 'Projects', icon: Folder, category: 'Work' },

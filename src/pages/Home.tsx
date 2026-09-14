@@ -11,6 +11,7 @@ import WakatimeStats from '../components/features/WakatimeStats';
 import VisitorCounter from '../components/features/VisitorCounter';
 import AgeCounter from '../components/features/AgeCounter';
 import FlowingBlogRiver from '../components/sections/FlowingBlogRiver';
+import ExperienceSection from '../components/sections/ExperienceSection';
 import { useTheme } from '../components/features/ThemeProvider';
 import { Mail, Github, Linkedin, Instagram, Monitor } from 'lucide-react';
 
@@ -233,6 +234,9 @@ export default function Home() {
             <SkillsMarquee />
           </div>
         </section>
+
+        {/* EXPERIENCE */}
+        <ExperienceSection />
 
         {/* 3. SELECTED WORK */}
         <section id="work" className="space-y-12">
