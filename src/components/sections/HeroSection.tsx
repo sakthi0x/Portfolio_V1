@@ -12,6 +12,7 @@ import {
     SiGithub,
     SiLinkedin,
     SiGmail,
+    SiReddit,
     SiX
 } from 'react-icons/si'
 import { useRef, useState } from 'react'
@@ -92,6 +93,7 @@ export default function HeroSection({ scrollToSection }: HeroSectionProps) {
                             { id: 'X' as const, icon: SiX, href: 'https://x.com/sakthimurugans_', label: 'X', color: 'text-current' },
                             { id: 'LINKEDIN' as const, icon: SiLinkedin, href: 'https://www.linkedin.com/in/sakthimurugan-s/', label: 'LINKEDIN', color: 'text-[#0077b5]' },
                             { id: 'GITHUB' as const, icon: SiGithub, href: 'https://github.com/Sakthi102003', label: 'GITHUB', color: 'text-current' },
+                            { id: 'REDDIT' as const, icon: SiReddit, href: 'https://www.reddit.com/user/CyberX_10/', label: 'REDDIT', color: 'text-[#FF4500]' },
                             { id: 'MAIL' as const, icon: SiGmail, href: 'mailto:sakthimurugan102003@gmail.com', label: 'MAIL', color: 'text-[#EA4335]' },
                             { id: 'DISCORD' as const, icon: SiDiscord, href: 'https://discord.com/users/1074201854143123560', label: 'DISCORD', color: 'text-[#5865F2]' }
                         ].map((social) => (

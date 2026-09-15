@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { SiX, SiLinkedin, SiGithub, SiGmail, SiDiscord } from 'react-icons/si';
+import { SiX, SiLinkedin, SiGithub, SiGmail, SiDiscord, SiReddit } from 'react-icons/si';
 import { projects } from '../data/projects';
 import ThemeToggle from '../components/ui/ThemeToggle';
 import ScrambleText from '../components/ui/ScrambleText';
@@ -208,6 +208,7 @@ export default function Home() {
                 { icon: SiX, href: 'https://x.com/sakthimurugans_', label: 'X' },
                 { icon: SiLinkedin, href: 'https://www.linkedin.com/in/sakthimurugan-s/', label: 'LinkedIn' },
                 { icon: SiGithub, href: 'https://github.com/Sakthi102003', label: 'GitHub' },
+                { icon: SiReddit, href: 'https://www.reddit.com/user/CyberX_10/', label: 'Reddit' },
                 { icon: SiGmail, href: 'mailto:sakthimurugan102003@gmail.com', label: 'Email' },
                 { icon: SiDiscord, href: 'https://discord.com/users/1074201854143123560', label: 'Discord' }
               ].map(social => (
@@ -343,6 +344,7 @@ export default function Home() {
                             { icon: Mail, label: 'EMAIL', value: 'sakthimurugan102003@gmail.com', href: 'mailto:sakthimurugan102003@gmail.com' },
                             { icon: Github, label: 'GITHUB', value: 'github.com/Sakthi102003', href: 'https://github.com/Sakthi102003' },
                             { icon: Linkedin, label: 'LINKEDIN', value: 'linkedin.com/in/sakthimurugan-s', href: 'https://www.linkedin.com/in/sakthimurugan-s/' },
+                            { icon: SiReddit, label: 'REDDIT', value: 'reddit.com/user/CyberX_10', href: 'https://www.reddit.com/user/CyberX_10/' },
                             { icon: Instagram, label: 'INSTAGRAM', value: 'instagram.com/sakthiii_techh', href: 'https://www.instagram.com/sakthiii_techh/' }
                         ].map((item) => (
                             <div key={item.label} className="flex items-center gap-6 group">
