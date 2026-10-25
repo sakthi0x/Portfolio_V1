@@ -80,7 +80,7 @@ const Terminal: React.FC<TerminalProps> = ({ isOpen, onClose, onCommand }) => {
                     skills: "INTEL: Core Stack includes React, TypeScript, Python, and Django. Special interest in Offensive Security.",
                     projects: "DEPLOYMENTS: Multiple successful operations launched including analytics tools and security scanners.",
                     gears: "LOADOUT: Primary workstation: HP Laptop 15s. Tactical relay: BoAt Airdopes. Navigation: Logitech MX Anywhere 3.",
-                    contact: "COMM_SENSORS: Multiple channels active. Reach out via [GITHUB](https://github.com/Sakthi102003), [LINKEDIN](https://linkedin.com/in/sakthimurugan-s), or [SECURE_MAIL](sakthimurugan102003@gmail.com)."
+                    contact: "COMM_SENSORS: Multiple channels active. Reach out via [GITHUB](https://github.com/sakthi0x), [LINKEDIN](https://linkedin.com/in/sakthimurugan-s), or [SECURE_MAIL](sakthimurugan102003@gmail.com)."
                 };
                 if (content[sector]) {
                     setHistory(prev => [...prev, { type: 'output', content: content[sector] }]);

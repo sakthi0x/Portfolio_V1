@@ -91,7 +91,7 @@ export default function HeroSection({ scrollToSection }: HeroSectionProps) {
                         {[
                             { id: 'X' as const, icon: SiX, href: 'https://x.com/sakthimurugans_', label: 'X', color: 'text-current' },
                             { id: 'LINKEDIN' as const, icon: SiLinkedin, href: 'https://www.linkedin.com/in/sakthimurugan-s/', label: 'LINKEDIN', color: 'text-[#0077b5]' },
-                            { id: 'GITHUB' as const, icon: SiGithub, href: 'https://github.com/Sakthi102003', label: 'GITHUB', color: 'text-current' },
+                            { id: 'GITHUB' as const, icon: SiGithub, href: 'https://github.com/sakthi0x', label: 'GITHUB', color: 'text-current' },
                             { id: 'MAIL' as const, icon: SiGmail, href: 'mailto:sakthimurugan102003@gmail.com', label: 'MAIL', color: 'text-[#EA4335]' },
                             { id: 'DISCORD' as const, icon: SiDiscord, href: 'https://discord.com/users/1074201854143123560', label: 'DISCORD', color: 'text-[#5865F2]' }
                         ].map((social) => (

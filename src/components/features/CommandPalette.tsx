@@ -69,9 +69,9 @@ const CommandPalette = () => {
         {
             id: 'ext-github',
             label: 'Open GitHub Protocol',
-            subLabel: 'github.com/Sakthi102003',
+            subLabel: 'github.com/sakthi0x',
             icon: Github,
-            action: () => window.open('https://github.com/Sakthi102003', '_blank'),
+            action: () => window.open('https://github.com/sakthi0x', '_blank'),
             category: 'External'
         },
         {

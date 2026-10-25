@@ -15,7 +15,7 @@ interface LatestCommitProps {
 }
 
 const CACHE_KEY = 'latest_github_commit_cache';
-const GITHUB_USERNAME = 'Sakthi102003';
+const GITHUB_USERNAME = 'sakthi0x';
 
 const LatestCommit = ({ isSmall = false }: LatestCommitProps) => {
     const [commit, setCommit] = useState<CommitData | null>(() => {

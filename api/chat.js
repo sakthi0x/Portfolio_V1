@@ -24,7 +24,7 @@ Projects:
 4. GuardianHash - File integrity monitoring tool
 
 Contact Information:
-- GitHub: https://github.com/Sakthi102003
+- GitHub: https://github.com/sakthi0x
 - LinkedIn: https://www.linkedin.com/in/sakthimurugan-s/
 - Email: sakthimurugan102003@gmail.com
 

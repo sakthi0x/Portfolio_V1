@@ -107,7 +107,7 @@ export default function StealthSidebar({
                 </div>
                 <div className="flex justify-between px-2">
                     {[
-                        { href: 'https://github.com/Sakthi102003', Icon: Github },
+                        { href: 'https://github.com/sakthi0x', Icon: Github },
                         { href: 'https://www.linkedin.com/in/sakthimurugan-s/', Icon: Linkedin },
                         { href: 'mailto:sakthimurugan102003@gmail.com', Icon: Mail },
                         { href: 'https://www.instagram.com/sakthiii_techh/', Icon: Instagram },

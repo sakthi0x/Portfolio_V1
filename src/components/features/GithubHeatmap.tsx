@@ -116,7 +116,7 @@ const GithubHeatmap = () => {
             <div className="w-full overflow-x-auto no-scrollbar flex justify-start md:justify-center">
               <div className="min-w-[700px] lg:min-w-full flex justify-center">
                 <GitHubCalendar
-                  username="Sakthi102003"
+                  username="sakthi0x"
                   year={new Date().getFullYear()}
                   colorScheme={theme}
                   blockSize={12}

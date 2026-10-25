@@ -444,7 +444,7 @@ export default function CorporateDashboard() {
                       {[
                         { icon: Mail, title: 'EMAIL ENCRYPTED', val: 'sakthimurugan102003@gmail.com', href: 'mailto:sakthimurugan102003@gmail.com' },
                         { icon: Linkedin, title: 'LINKEDIN PROFILE', val: 'linkedin.com/in/sakthimurugan-s', href: 'https://www.linkedin.com/in/sakthimurugan-s/' },
-                        { icon: Github, title: 'GITHUB REPOSITORY', val: 'github.com/Sakthi102003', href: 'https://github.com/Sakthi102003' },
+                        { icon: Github, title: 'GITHUB REPOSITORY', val: 'github.com/sakthi0x', href: 'https://github.com/sakthi0x' },
                         { icon: Phone, title: 'DIRECT LINE', val: 'REQUEST VIA EMAIL', href: '#' },
                       ].map((contact, idx) => (
                         <a key={idx} href={contact.href} target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 border-b border-[#e8e8ec] hover:bg-[#f8f8fa] transition-colors group">

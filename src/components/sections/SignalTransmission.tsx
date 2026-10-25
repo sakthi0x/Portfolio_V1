@@ -35,7 +35,7 @@ export default function SignalTransmission() {
                         <div className="space-y-6">
                             {[
                                 { icon: Mail, label: 'EMAIL', value: 'sakthimurugan102003@gmail.com', href: 'mailto:sakthimurugan102003@gmail.com' },
-                                { icon: Github, label: 'GITHUB', value: 'github.com/Sakthi102003', href: 'https://github.com/Sakthi102003' },
+                                { icon: Github, label: 'GITHUB', value: 'github.com/sakthi0x', href: 'https://github.com/sakthi0x' },
                                 { icon: Linkedin, label: 'LINKEDIN', value: 'linkedin.com/in/sakthimurugan-s', href: 'https://www.linkedin.com/in/sakthimurugan-s/' },
                                 { icon: Instagram, label: 'INSTAGRAM', value: 'instagram.com/sakthiii_techh', href: 'https://www.instagram.com/sakthiii_techh/' },
                                 { icon: SiMedium, label: 'MEDIUM', value: 'medium.com/@sakthimurugan102003', href: 'https://medium.com/@sakthimurugan102003' }

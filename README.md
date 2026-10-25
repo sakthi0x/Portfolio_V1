@@ -93,7 +93,7 @@ src/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/Sakthi102003/Repo-name.git
+git clone https://github.com/sakthi0x/Repo-name.git
 cd Repo-Name
 ```
 
@@ -140,5 +140,5 @@ http://localhost:5173
   <p>Designed and built by <b>Sakthi Murugan</b></p>
   <p><i>Notebook — code, craft, and curiosity.</i></p>
 
-  [Email](mailto:sakthimurugan102003@gmail.com) • [LinkedIn](https://www.linkedin.com/in/sakthimurugan-s/) • [GitHub](https://github.com/Sakthi102003)
+  [Email](mailto:sakthimurugan102003@gmail.com) • [LinkedIn](https://www.linkedin.com/in/sakthimurugan-s/) • [GitHub](https://github.com/sakthi0x)
 </div>
